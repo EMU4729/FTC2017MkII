@@ -23,6 +23,20 @@ public class BaseDrive extends OpMode {
     String motorType;
     double WEIGHT;
 
+    SensorManager sensorManager;
+    float joystick_1_x;
+    float joystick_1_y;
+    float joystick_2_x;
+    float joystick_2_y;
+    boolean buttonX;
+    boolean buttonB;
+    boolean buttonY;
+    boolean buttonA;
+    float leftTrigger;
+    float rightTrigger;
+    boolean leftBumper;
+    boolean rightBumper;
+
     @Override
     public void init() {
         leftBackDrive = hardwareMap.dcMotor.get("left_back_drive");
