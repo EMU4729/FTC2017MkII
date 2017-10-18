@@ -1,16 +1,11 @@
 package com.qualcomm.robotcore.eventloop.opmode;
 
-package org.firstinspires.ftc.robotcontroller.external.samples;
+import com.qualcomm.robotcore.hardware.DcMotor;
 
-import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
-import com.qualcomm.robotcore.eventloop.opmode.Disabled;
-import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
-import com.qualcomm.robotcore.hardware.HardwareMap;
 
 import android.content.Context;
 import android.hardware.SensorManager;
 
-import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.Gamepad;
 import com.qualcomm.robotcore.hardware.Servo;
@@ -18,12 +13,15 @@ import com.qualcomm.robotcore.hardware.Servo;
 
 @TeleOp(name="Base Drive Code", group ="Base Code")
 @Disabled
-public class BaseDrive extends LinearOpMode {
+public class BaseDrive extends OpMode {
     DcMotor leftBackDrive;
     DcMotor rightBackDrive;
     DcMotor leftForwardDrive;
     DcMotor rightForwardDrive;
     DcMotor sidewaysDrive;
+
+    String motorType;
+    double WEIGHT;
 
     @Override
     public void init() {
