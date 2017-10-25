@@ -15,7 +15,7 @@ import com.qualcomm.robotcore.hardware.Servo;
 
 
 @TeleOp(name="Base Drive Code", group ="Base Code")
-@Disabled
+
 public class BaseDrive extends OpMode {
     DcMotor leftDrive;
     DcMotor rightDrive;
