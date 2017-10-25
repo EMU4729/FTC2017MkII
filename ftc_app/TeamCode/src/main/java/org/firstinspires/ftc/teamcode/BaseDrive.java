@@ -20,6 +20,7 @@ public class BaseDrive extends OpMode {
     DcMotor leftDrive;
     DcMotor rightDrive;
     DcMotor sidewaysDrive;
+    DcMotor parallelogramMotor;
 
     String motorType;
     double WEIGHT;
@@ -43,6 +44,7 @@ public class BaseDrive extends OpMode {
         leftDrive = hardwareMap.dcMotor.get("left_drive");
         rightDrive = hardwareMap.dcMotor.get("right_drive");
         sidewaysDrive = hardwareMap.dcMotor.get("sideways_drive");
+        parallelogramMotor = hardwareMap.dcMotor.get("parallelogram_motor");
         sensorManager = (SensorManager)hardwareMap.appContext.getSystemService(Context.SENSOR_SERVICE);
         //Looper.prepare();
         //gyro =  new MyGyro();
@@ -86,6 +88,14 @@ public class BaseDrive extends OpMode {
 
         //update motors
         drive(-joystick_1_y, joystick_1_x, joystick_2_x);
+        //drive(1, 1, 1);
+        if (buttonY) {
+            moveParallelogram(true);
+        } else if (buttonB) {
+            moveParallelogram(false);
+        } else {
+            stopParallelogram();
+        }
     }
 
 
@@ -97,8 +107,21 @@ public class BaseDrive extends OpMode {
         leftDrive.setPower(0);
         rightDrive.setPower(0);
         sidewaysDrive.setPower(0);
+        stopParallelogram();
     }
 
+    public void moveParallelogram(boolean up) {
+        double speed = 1.0;
+        if (up) {
+            parallelogramMotor.setPower(speed);
+        } else {
+            parallelogramMotor.setPower(-speed);
+        }
+    }
+
+    public void stopParallelogram() {
+        parallelogramMotor.setPower(0);
+    }
 
     public void drive(double forwards, double sideways, double turn) {
         double lf = forwards+turn;
