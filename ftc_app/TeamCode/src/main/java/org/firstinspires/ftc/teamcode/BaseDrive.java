@@ -93,6 +93,8 @@ public class BaseDrive extends OpMode {
             moveParallelogram(true);
         } else if (buttonA) {
             moveParallelogram(false);
+        } else {
+            stopParallelogram();
         }
     }
 
@@ -105,6 +107,7 @@ public class BaseDrive extends OpMode {
         leftDrive.setPower(0);
         rightDrive.setPower(0);
         sidewaysDrive.setPower(0);
+        stopParallelogram();
     }
 
     public void moveParallelogram(boolean up) {
@@ -114,6 +117,10 @@ public class BaseDrive extends OpMode {
         } else {
             parallelogramMotor.setPower(-speed);
         }
+    }
+
+    public void stopParallelogram() {
+        parallelogramMotor.setPower(0);
     }
 
     public void drive(double forwards, double sideways, double turn) {
