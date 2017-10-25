@@ -12,16 +12,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="BaseDrive.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ftc_app/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/BaseDrive.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3960">
               <caret line="131" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+=======
+      <file leaf-file-name="BaseDrive.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ftc_app/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/BaseDrive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1964">
+              <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+>>>>>>> master
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="gyph.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ftc_app/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/gyph.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -34,6 +43,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> master
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -189,6 +200,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+<<<<<<< HEAD
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="FTC2017MkII" />
@@ -219,6 +231,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+=======
+>>>>>>> master
         </subPane>
       </pane>
       <pane id="AndroidView" />
@@ -229,7 +243,7 @@
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ftc_app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -550,7 +564,11 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> master
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -590,12 +608,18 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ftc_app/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/BaseDrive.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="3960">
           <caret line="131" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+=======
+        <state relative-caret-position="-1964">
+          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+>>>>>>> master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/ftc_app/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/gyph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1357">
@@ -606,5 +630,7 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> master
   </component>
 </project>
