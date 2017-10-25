@@ -91,7 +91,7 @@ public class BaseDrive extends OpMode {
         //drive(1, 1, 1);
         if (buttonY) {
             moveParallelogram(true);
-        } else if (buttonA) {
+        } else if (buttonB) {
             moveParallelogram(false);
         } else {
             stopParallelogram();
