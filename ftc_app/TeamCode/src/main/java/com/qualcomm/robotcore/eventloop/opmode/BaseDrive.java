@@ -1,8 +1,5 @@
-package org.firstinspires.ftc.teamcode;
+package com.qualcomm.robotcore.eventloop.opmode;
 
-import com.qualcomm.robotcore.eventloop.opmode.Disabled;
-import com.qualcomm.robotcore.eventloop.opmode.OpMode;
-import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
 
 
@@ -15,10 +12,12 @@ import com.qualcomm.robotcore.hardware.Servo;
 
 
 @TeleOp(name="Base Drive Code", group ="Base Code")
-
+@Disabled
 public class BaseDrive extends OpMode {
-    DcMotor leftDrive;
-    DcMotor rightDrive;
+    DcMotor leftBackDrive;
+    DcMotor rightBackDrive;
+    DcMotor leftForwardDrive;
+    DcMotor rightForwardDrive;
     DcMotor sidewaysDrive;
 
     String motorType;
@@ -40,8 +39,12 @@ public class BaseDrive extends OpMode {
 
     @Override
     public void init() {
-        leftDrive = hardwareMap.dcMotor.get("left_drive");
-        rightDrive = hardwareMap.dcMotor.get("right_drive");
+        leftBackDrive = hardwareMap.dcMotor.get("left_back_drive");
+        leftBackDrive.setDirection(DcMotor.Direction.REVERSE);
+        rightBackDrive = hardwareMap.dcMotor.get("right_back_drive");
+        leftForwardDrive = hardwareMap.dcMotor.get("left_forward_drive");
+        leftForwardDrive.setDirection(DcMotor.Direction.REVERSE);
+        rightForwardDrive = hardwareMap.dcMotor.get("right_forward_drive");
         sidewaysDrive = hardwareMap.dcMotor.get("sideways_drive");
         sensorManager = (SensorManager)hardwareMap.appContext.getSystemService(Context.SENSOR_SERVICE);
         //Looper.prepare();
@@ -94,9 +97,11 @@ public class BaseDrive extends OpMode {
      */
     @Override
     public void stop() {
-        leftDrive.setPower(1);
-        rightDrive.setPower(1);
-        sidewaysDrive.setPower(1);
+        leftBackDrive.setPower(0);
+        rightBackDrive.setPower(0);
+        leftForwardDrive.setPower(0);
+        rightForwardDrive.setPower(0);
+        sidewaysDrive.setPower(0);
     }
 
 
@@ -119,13 +124,17 @@ public class BaseDrive extends OpMode {
         }
         if (WEIGHT < 1) {
             WEIGHT = 1 / WEIGHT;
-            leftDrive.setPower(1);
-            rightDrive.setPower(1);
+            leftBackDrive.setPower(lb);
+            rightBackDrive.setPower(rb);
+            leftForwardDrive.setPower(lf / WEIGHT);
+            rightForwardDrive.setPower(lf / WEIGHT);
         } else {
-            leftDrive.setPower(1);
-            rightDrive.setPower(1);
+            leftBackDrive.setPower(lb / WEIGHT);
+            rightBackDrive.setPower(rb / WEIGHT);
+            leftForwardDrive.setPower(lf);
+            rightForwardDrive.setPower(rf);
         }
-        sidewaysDrive.setPower(1);
+        sidewaysDrive.setPower(sideways);
     }
 }
 
