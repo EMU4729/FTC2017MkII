@@ -1,6 +1,22 @@
 {
     "logs": [
         {
+            "outputFile": "/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/c46d4b22aa65076eb55dbdb2188eccc9/res/values-v11/values-v11.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\Documents\\first\\FTC2017\\ftc_app\\TeamCode\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {

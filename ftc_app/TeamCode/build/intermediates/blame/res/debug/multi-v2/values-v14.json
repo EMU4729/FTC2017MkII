@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\Documents\\first\\FTC2017\\ftc_app\\TeamCode\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+            "outputFile": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/TeamCode/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
             "map": [
                 {
-                    "source": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\.gradle\\caches\\transforms-1\\files-1.1\\RobotCore-release.aar\\2209b170f13cf8562941394b70d1e3ed\\res\\values-v14\\values-v14.xml",
+                    "source": "/Users/benpearcy/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/98f7c75c706298ae5fcf34336fc24d8c/res/values-v14/values-v14.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -17,10 +17,26 @@
             ]
         },
         {
-            "outputFile": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/TeamCode/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
+            "outputFile": "/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
             "map": [
                 {
-                    "source": "/Users/benpearcy/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/98f7c75c706298ae5fcf34336fc24d8c/res/values-v14/values-v14.xml",
+                    "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/c46d4b22aa65076eb55dbdb2188eccc9/res/values-v14/values-v14.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "201"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\Documents\\first\\FTC2017\\ftc_app\\TeamCode\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+            "map": [
+                {
+                    "source": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\.gradle\\caches\\transforms-1\\files-1.1\\RobotCore-release.aar\\2209b170f13cf8562941394b70d1e3ed\\res\\values-v14\\values-v14.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

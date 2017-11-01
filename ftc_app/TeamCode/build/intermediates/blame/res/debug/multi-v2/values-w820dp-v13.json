@@ -1,6 +1,21 @@
 {
     "logs": [
         {
+            "outputFile": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\Documents\\first\\FTC2017\\ftc_app\\TeamCode\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\Documents\\first\\FTC2017\\ftc_app\\FtcRobotController\\build\\intermediates\\bundles\\debug\\res\\values-w820dp-v13\\values-w820dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/TeamCode/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
@@ -16,10 +31,10 @@
             ]
         },
         {
-            "outputFile": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\Documents\\first\\FTC2017\\ftc_app\\TeamCode\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "outputFile": "/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\Documents\\first\\FTC2017\\ftc_app\\FtcRobotController\\build\\intermediates\\bundles\\debug\\res\\values-w820dp-v13\\values-w820dp-v13.xml",
+                    "source": "/home/luke/FTC2017MkII/ftc_app/FtcRobotController/build/intermediates/bundles/debug/res/values-w820dp-v13/values-w820dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
