@@ -37,6 +37,7 @@ public class BaseDrive extends OpMode {
     float rightTrigger;
     boolean leftBumper;
     boolean rightBumper;
+    GlyphGrabber glyphGrabber;
 
     @Override
     public void init() {
@@ -44,12 +45,15 @@ public class BaseDrive extends OpMode {
         rightDrive = hardwareMap.dcMotor.get("right_drive");
         sidewaysDrive = hardwareMap.dcMotor.get("sideways_drive");
         sensorManager = (SensorManager)hardwareMap.appContext.getSystemService(Context.SENSOR_SERVICE);
+
         //Looper.prepare();
         //gyro =  new MyGyro();
 
         //sensorManager.registerListener(gyro, sensorManager.getDefaultSensor(Sensor.TYPE_ROTATION_VECTOR), SensorManager.SENSOR_DELAY_GAME);
         motorType = "hdrive";
         WEIGHT = 1;
+
+        glyphGrabber = new GlyphGrabber(hardwareMap);
     }
 
     //Runs repeatedly until play is hit
@@ -86,6 +90,8 @@ public class BaseDrive extends OpMode {
 
         //update motors
         drive(-joystick_1_y, joystick_1_x, joystick_2_x);
+
+        glyphGrabber.moveServo(gamepad1);
     }
 
 
@@ -94,9 +100,9 @@ public class BaseDrive extends OpMode {
      */
     @Override
     public void stop() {
-        leftDrive.setPower(1);
-        rightDrive.setPower(1);
-        sidewaysDrive.setPower(1);
+        leftDrive.setPower(0);
+        rightDrive.setPower(0);
+        sidewaysDrive.setPower(0);
     }
 
 
