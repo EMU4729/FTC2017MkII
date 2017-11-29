@@ -1,10 +1,14 @@
 package org.firstinspires.ftc.teamcode;
 
 public class Motors {
+    DcMotor leftDrive;
+    DcMotor rightDrive;
+    DcMotor sidewaysDrive;
+
     public Motors(HardwareMap hardwareMap) {
-        DcMotor leftDrive;
-        DcMotor rightDrive;
-        DcMotor sidewaysDrive;
+        leftDrive = hardwareMap.dcMotor.get("left_drive");
+        rightDrive = hardwareMap.dcMotor.get("right_drive");
+        sidewaysDrive = hardwareMap.dcMotor.get("sideways_drive");
     }
 
     public void drive(double forwards, double sideways, double turn) {

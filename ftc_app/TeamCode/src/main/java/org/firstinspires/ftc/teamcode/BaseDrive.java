@@ -17,7 +17,6 @@ import com.qualcomm.robotcore.hardware.Servo;
 @TeleOp(name="Base Drive Code", group ="Base Code")
 
 public class BaseDrive extends OpMode {
-    DcMotor parallelogramMotor;
 
     String motorType;
     double WEIGHT;
@@ -39,11 +38,10 @@ public class BaseDrive extends OpMode {
 
     @Override
     public void init() {
-        /*leftDrive = hardwareMap.dcMotor.get("left_drive");
-        rightDrive = hardwareMap.dcMotor.get("right_drive");
-        sidewaysDrive = hardwareMap.dcMotor.get("sideways_drive");*/
+
         motors = new Motors(hardwareMap);
-        parallelogramMotor = hardwareMap.dcMotor.get("parallelogram_motor");
+        parallelogramMotors = new ParallelogramMotors(hardwareMap);
+
         sensorManager = (SensorManager)hardwareMap.appContext.getSystemService(Context.SENSOR_SERVICE);
 
         //Looper.prepare();
@@ -94,11 +92,11 @@ public class BaseDrive extends OpMode {
         glyphGrabber.moveServo(gamepad1);
 
         if (buttonY) {
-            moveParallelogram(true);
+            parallelogramMotors.moveParallelogram(true);
         } else if (buttonB) {
-            moveParallelogram(false);
+            parallelogramMotors.moveParallelogram(false);
         } else {
-            stopParallelogram();
+            parallelogramMotors.stopParallelogram();
         }
     }
 
@@ -114,18 +112,9 @@ public class BaseDrive extends OpMode {
         stopParallelogram();
     }
 
-    public void moveParallelogram(boolean up) {
-        double speed = 1.0;
-        if (up) {
-            parallelogramMotor.setPower(speed);
-        } else {
-            parallelogramMotor.setPower(-speed);
-        }
-    }
 
-    public void stopParallelogram() {
-        parallelogramMotor.setPower(0);
-    }
+
+
 
 
 }
