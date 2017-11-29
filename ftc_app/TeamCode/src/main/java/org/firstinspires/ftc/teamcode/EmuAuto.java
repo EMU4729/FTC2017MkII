@@ -13,9 +13,13 @@ public class EmuAuto extends OpMode {
     ParallelogramMotors parallelogramMotors;
     ColourSensor colourSensor;
     ElapsedTime timer;
+    boolean direction = false;
     double colourMin = 1;
     double stage1time = 5;
-    double stage2time = 5 + stage1time;
+    double stage2time = 1 + stage1time;
+    double stage3time = 3 + stage2time;
+    double stage4time = 5 + stage3time
+
 
 
     @Override
@@ -29,11 +33,21 @@ public class EmuAuto extends OpMode {
     @Override
     public void loop() {
         if (timer.time() < stage1time) {
-            motors.drive(10, 0, 0);
+            motors.drive( 1, 0, 0);
         } else if (timer.time() < stage2time) {
             if (colourSensor.getValue() < colourMin) {
+                direction = true;
+            } else {
 
             }
+        } else if (timer.time() < stage3time) {
+            if (direction) {
+                motors.drive(0,0,1);
+            } else {
+                motors.drive(0,0,-1);
+            }
+        }  else if (timer.time() < stage4time) {
+            motors.drive(0,1,0);
         }
         //Move left
         //Scan Pictograph
