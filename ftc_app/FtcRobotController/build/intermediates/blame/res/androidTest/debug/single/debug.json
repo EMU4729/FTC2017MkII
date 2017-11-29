@@ -12,12 +12,12 @@
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/60d1478405aca5dff8fe1326ac92a88f/res/xml/pushbot.xml"
     },
     {
-        "merged": "/home/luke/FTC2017MkII/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_device_interface_module.xml.flat",
-        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/60d1478405aca5dff8fe1326ac92a88f/res/layout/device_interface_module.xml"
-    },
-    {
         "merged": "/home/luke/FTC2017MkII/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_motor.xml.flat",
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/60d1478405aca5dff8fe1326ac92a88f/res/layout/motor.xml"
+    },
+    {
+        "merged": "/home/luke/FTC2017MkII/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_device_interface_module.xml.flat",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/60d1478405aca5dff8fe1326ac92a88f/res/layout/device_interface_module.xml"
     },
     {
         "merged": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_red_line.xml.flat",
@@ -68,12 +68,12 @@
         "source": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\Documents\\first\\FTC2017\\ftc_app\\FtcRobotController\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\icon_robotcontroller.png"
     },
     {
-        "merged": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\Documents\\first\\FTC2017\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_button_list.xml.flat",
-        "source": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\.gradle\\caches\\transforms-1\\files-1.1\\FtcCommon-release.aar\\bd7d92671342847504d82623042c7435\\res\\layout\\button_list.xml"
-    },
-    {
         "merged": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\Documents\\first\\FTC2017\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ic_launcher.png.flat",
         "source": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\Documents\\first\\FTC2017\\ftc_app\\FtcRobotController\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\Documents\\first\\FTC2017\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_button_list.xml.flat",
+        "source": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\.gradle\\caches\\transforms-1\\files-1.1\\FtcCommon-release.aar\\bd7d92671342847504d82623042c7435\\res\\layout\\button_list.xml"
     },
     {
         "merged": "/home/luke/FTC2017MkII/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/menu_main_menu.xml.flat",
@@ -152,12 +152,12 @@
         "source": "/Users/benpearcy/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/1152f310287c52fe04c2c2be9029e75a/res/layout/digital_device_lynx.xml"
     },
     {
-        "merged": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\Documents\\first\\FTC2017\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_analog_output_device.xml.flat",
-        "source": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\.gradle\\caches\\transforms-1\\files-1.1\\FtcCommon-release.aar\\bd7d92671342847504d82623042c7435\\res\\layout\\analog_output_device.xml"
-    },
-    {
         "merged": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\Documents\\first\\FTC2017\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_file_info.xml.flat",
         "source": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\.gradle\\caches\\transforms-1\\files-1.1\\FtcCommon-release.aar\\bd7d92671342847504d82623042c7435\\res\\layout\\file_info.xml"
+    },
+    {
+        "merged": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\Documents\\first\\FTC2017\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_analog_output_device.xml.flat",
+        "source": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\.gradle\\caches\\transforms-1\\files-1.1\\FtcCommon-release.aar\\bd7d92671342847504d82623042c7435\\res\\layout\\analog_output_device.xml"
     },
     {
         "merged": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\Documents\\first\\FTC2017\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_ftc_lynx_address_update.xml.flat",
@@ -192,12 +192,12 @@
         "source": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\.gradle\\caches\\transforms-1\\files-1.1\\FtcCommon-release.aar\\bd7d92671342847504d82623042c7435\\res\\layout\\template_info.xml"
     },
     {
-        "merged": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_lynx_address_update.xml.flat",
-        "source": "/Users/benpearcy/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/1152f310287c52fe04c2c2be9029e75a/res/layout/activity_ftc_lynx_address_update.xml"
-    },
-    {
         "merged": "/home/luke/FTC2017MkII/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_feedback.xml.flat",
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/RobotCore-release.aar/c46d4b22aa65076eb55dbdb2188eccc9/res/layout/feedback.xml"
+    },
+    {
+        "merged": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/FtcRobotController/build/intermediates/res/merged/androidTest/debug/layout_activity_ftc_lynx_address_update.xml.flat",
+        "source": "/Users/benpearcy/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/1152f310287c52fe04c2c2be9029e75a/res/layout/activity_ftc_lynx_address_update.xml"
     },
     {
         "merged": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\Documents\\first\\FTC2017\\ftc_app\\FtcRobotController\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_motor.xml.flat",

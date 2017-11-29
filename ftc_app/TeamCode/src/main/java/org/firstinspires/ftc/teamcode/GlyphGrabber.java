@@ -19,9 +19,6 @@ import com.qualcomm.robotcore.hardware.Servo;
 //@TeleOp(name="GlyphGrabber Code", group ="GlyphGrabber Code")
 
 public class GlyphGrabber {
-    DcMotor leftDrive;
-    DcMotor rightDrive;
-    DcMotor sidewaysDrive;
 
     Servo Servo1;
     Servo Servo2;
@@ -31,10 +28,6 @@ public class GlyphGrabber {
 
     //@Override
     public GlyphGrabber(HardwareMap hardwareMap) {
-        leftDrive = hardwareMap.dcMotor.get("left_drive");
-        rightDrive = hardwareMap.dcMotor.get("right_drive");
-        sidewaysDrive = hardwareMap.dcMotor.get("sideways_drive");
-
         Servo1 = hardwareMap.servo.get("servo_1");
         Servo2 = hardwareMap.servo.get("servo_2");
     }

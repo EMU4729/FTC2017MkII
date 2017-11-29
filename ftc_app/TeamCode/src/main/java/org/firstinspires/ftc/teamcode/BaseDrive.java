@@ -17,9 +17,6 @@ import com.qualcomm.robotcore.hardware.Servo;
 @TeleOp(name="Base Drive Code", group ="Base Code")
 
 public class BaseDrive extends OpMode {
-    DcMotor leftDrive;
-    DcMotor rightDrive;
-    DcMotor sidewaysDrive;
     DcMotor parallelogramMotor;
 
     String motorType;
@@ -42,9 +39,10 @@ public class BaseDrive extends OpMode {
 
     @Override
     public void init() {
-        leftDrive = hardwareMap.dcMotor.get("left_drive");
+        /*leftDrive = hardwareMap.dcMotor.get("left_drive");
         rightDrive = hardwareMap.dcMotor.get("right_drive");
-        sidewaysDrive = hardwareMap.dcMotor.get("sideways_drive");
+        sidewaysDrive = hardwareMap.dcMotor.get("sideways_drive");*/
+        motors = new Motors(hardwareMap);
         parallelogramMotor = hardwareMap.dcMotor.get("parallelogram_motor");
         sensorManager = (SensorManager)hardwareMap.appContext.getSystemService(Context.SENSOR_SERVICE);
 
@@ -91,7 +89,7 @@ public class BaseDrive extends OpMode {
         rightBumper = gamepad2.right_bumper;
 
         //update motors
-        drive(-joystick_1_y, joystick_1_x, joystick_2_x);
+        motors.drive(-joystick_1_y, joystick_1_x, joystick_2_x);
 
         glyphGrabber.moveServo(gamepad1);
 
@@ -130,34 +128,5 @@ public class BaseDrive extends OpMode {
     }
 
 
-
-
-    public void drive(double forwards, double sideways, double turn) {
-        double lf = forwards+turn;
-        double rf = forwards-turn;
-        double lb = forwards+turn;
-        double rb = forwards-turn;
-        if (Math.abs(lf) > 1) {
-            lf = lf/Math.abs(lf);
-        }
-        if (Math.abs(lb) > 1) {
-            lb = lb/Math.abs(lb);
-        }
-        if (Math.abs(rf) > 1) {
-            rf = rf/Math.abs(rf);
-        }
-        if (Math.abs(rb) > 1) {
-            rb = rb/Math.abs(rb);
-        }
-        if (WEIGHT < 1) {
-            WEIGHT = 1 / WEIGHT;
-            leftDrive.setPower(lb);
-            rightDrive.setPower(rb);
-        } else {
-            leftDrive.setPower(lb / WEIGHT);
-            rightDrive.setPower(rb / WEIGHT);
-        }
-        sidewaysDrive.setPower(sideways);
-    }
 }
 
