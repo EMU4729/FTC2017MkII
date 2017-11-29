@@ -16,12 +16,12 @@
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/60d1478405aca5dff8fe1326ac92a88f/res/layout/servo_list.xml"
     },
     {
-        "merged": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/merged/debug/layout_pwms.xml.flat",
-        "source": "/Users/benpearcy/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/1152f310287c52fe04c2c2be9029e75a/res/layout/pwms.xml"
-    },
-    {
         "merged": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\Documents\\first\\FTC2017\\ftc_app\\TeamCode\\build\\intermediates\\res\\merged\\debug\\layout_i2c_device.xml.flat",
         "source": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\.gradle\\caches\\transforms-1\\files-1.1\\FtcCommon-release.aar\\bd7d92671342847504d82623042c7435\\res\\layout\\i2c_device.xml"
+    },
+    {
+        "merged": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/merged/debug/layout_pwms.xml.flat",
+        "source": "/Users/benpearcy/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/1152f310287c52fe04c2c2be9029e75a/res/layout/pwms.xml"
     },
     {
         "merged": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/merged/debug/raw_chimedisconnect.wav.flat",
@@ -56,12 +56,12 @@
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/Blocks-release.aar/8227886a0c31dc4c01f5ec971e1deacd/res/drawable/black_border.xml"
     },
     {
-        "merged": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\Documents\\first\\FTC2017\\ftc_app\\TeamCode\\build\\intermediates\\res\\merged\\debug\\layout_servo_list.xml.flat",
-        "source": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\.gradle\\caches\\transforms-1\\files-1.1\\FtcCommon-release.aar\\bd7d92671342847504d82623042c7435\\res\\layout\\servo_list.xml"
-    },
-    {
         "merged": "/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/merged/debug/layout_i2c_device.xml.flat",
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/60d1478405aca5dff8fe1326ac92a88f/res/layout/i2c_device.xml"
+    },
+    {
+        "merged": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\Documents\\first\\FTC2017\\ftc_app\\TeamCode\\build\\intermediates\\res\\merged\\debug\\layout_servo_list.xml.flat",
+        "source": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\.gradle\\caches\\transforms-1\\files-1.1\\FtcCommon-release.aar\\bd7d92671342847504d82623042c7435\\res\\layout\\servo_list.xml"
     },
     {
         "merged": "/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/merged/debug/layout_activity_ftc_lynx_address_update.xml.flat",
@@ -100,44 +100,44 @@
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/Inspection-release.aar/f4ea2f9d25ea249b7b54be18ed496df2/res/drawable/icon_robotcontroller.png"
     },
     {
-        "merged": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/merged/debug/xml_k9usbbot.xml.flat",
-        "source": "/Users/benpearcy/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/1152f310287c52fe04c2c2be9029e75a/res/xml/k9usbbot.xml"
+        "merged": "/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/merged/debug/menu_menu_server.xml.flat",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/Blocks-release.aar/8227886a0c31dc4c01f5ec971e1deacd/res/menu/menu_server.xml"
     },
     {
         "merged": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/merged/debug/drawable-xhdpi-v4_icon_menu.png.flat",
         "source": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/FtcRobotController/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/icon_menu.png"
     },
     {
-        "merged": "/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/merged/debug/menu_menu_server.xml.flat",
-        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/Blocks-release.aar/8227886a0c31dc4c01f5ec971e1deacd/res/menu/menu_server.xml"
-    },
-    {
-        "merged": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\Documents\\first\\FTC2017\\ftc_app\\TeamCode\\build\\intermediates\\res\\merged\\debug\\layout_color_list_preference_line_item.xml.flat",
-        "source": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\.gradle\\caches\\transforms-1\\files-1.1\\RobotCore-release.aar\\2209b170f13cf8562941394b70d1e3ed\\res\\layout\\color_list_preference_line_item.xml"
+        "merged": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/merged/debug/xml_k9usbbot.xml.flat",
+        "source": "/Users/benpearcy/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/1152f310287c52fe04c2c2be9029e75a/res/xml/k9usbbot.xml"
     },
     {
         "merged": "/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/merged/debug/raw_nxtstartupsound.wav.flat",
         "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/60d1478405aca5dff8fe1326ac92a88f/res/raw/nxtstartupsound.wav"
     },
     {
-        "merged": "/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/merged/debug/layout_banner_parent.xml.flat",
-        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/60d1478405aca5dff8fe1326ac92a88f/res/layout/banner_parent.xml"
+        "merged": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\Documents\\first\\FTC2017\\ftc_app\\TeamCode\\build\\intermediates\\res\\merged\\debug\\layout_color_list_preference_line_item.xml.flat",
+        "source": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\.gradle\\caches\\transforms-1\\files-1.1\\RobotCore-release.aar\\2209b170f13cf8562941394b70d1e3ed\\res\\layout\\color_list_preference_line_item.xml"
     },
     {
-        "merged": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\Documents\\first\\FTC2017\\ftc_app\\TeamCode\\build\\intermediates\\res\\merged\\debug\\layout_activity_programming_mode.xml.flat",
-        "source": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\.gradle\\caches\\transforms-1\\files-1.1\\Blocks-release.aar\\ca9890f00877893dd515fd2a3ed84bfa\\res\\layout\\activity_programming_mode.xml"
+        "merged": "/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/merged/debug/layout_banner_parent.xml.flat",
+        "source": "/home/luke/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/60d1478405aca5dff8fe1326ac92a88f/res/layout/banner_parent.xml"
     },
     {
         "merged": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/merged/debug/layout_activity_about.xml.flat",
         "source": "/Users/benpearcy/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/1152f310287c52fe04c2c2be9029e75a/res/layout/activity_about.xml"
     },
     {
-        "merged": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/merged/debug/layout_activity_ftc_configuration.xml.flat",
-        "source": "/Users/benpearcy/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/1152f310287c52fe04c2c2be9029e75a/res/layout/activity_ftc_configuration.xml"
+        "merged": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\Documents\\first\\FTC2017\\ftc_app\\TeamCode\\build\\intermediates\\res\\merged\\debug\\layout_activity_programming_mode.xml.flat",
+        "source": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\.gradle\\caches\\transforms-1\\files-1.1\\Blocks-release.aar\\ca9890f00877893dd515fd2a3ed84bfa\\res\\layout\\activity_programming_mode.xml"
     },
     {
         "merged": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\Documents\\first\\FTC2017\\ftc_app\\TeamCode\\build\\intermediates\\res\\merged\\debug\\xml_advanced_rc_settings.xml.flat",
         "source": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/C:\\Users\\Sophie2\\.gradle\\caches\\transforms-1\\files-1.1\\FtcCommon-release.aar\\bd7d92671342847504d82623042c7435\\res\\xml\\advanced_rc_settings.xml"
+    },
+    {
+        "merged": "/Users/benpearcy/Documents/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/merged/debug/layout_activity_ftc_configuration.xml.flat",
+        "source": "/Users/benpearcy/.gradle/caches/transforms-1/files-1.1/FtcCommon-release.aar/1152f310287c52fe04c2c2be9029e75a/res/layout/activity_ftc_configuration.xml"
     },
     {
         "merged": "/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/merged/debug/xml_rev_scoot.xml.flat",

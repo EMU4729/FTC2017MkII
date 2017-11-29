@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Nov 01 19:18:31 AEDT 2017
+#Wed Nov 29 19:40:59 AEDT 2017
 20.base=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/assets/debug
 143.base=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/assets/debug
 439.set=ASSET
@@ -129,7 +129,7 @@
 267.base=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/assets/debug
 114.file=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/assets/debug/java/js/jquery.position.js
 264.set=ASSET
-24.file=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/debug/resources-debug.ap_/res/raw/errormessage.wav
+24.file=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/debug/resources-debug.ap_/res/layout/lynx_module_configure_address.xml
 142.set=ASSET
 57.file=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/assets/debug/js/jquery-3.1.1.min.js
 187.set=ASSET
@@ -483,12 +483,12 @@
 288.set=ASSET
 211.set=ASSET
 254.base=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/assets/debug
-271.file=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/debug/resources-debug.ap_/res/xml/pushbot.xml
+271.file=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/debug/resources-debug.ap_/res/layout/matrix_devices.xml
 425.base=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/assets/debug
 166.set=ASSET
 101.file=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/assets/debug/css/FtcBlocksProjects.less
 287.base=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/assets/debug
-134.file=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/debug/resources-debug.ap_/res/layout/digital_device_lynx.xml
+134.file=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/debug/resources-debug.ap_/res/layout/digital_devices.xml
 305.file=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/debug/resources-debug.ap_/res/xml/k9usbbot.xml
 44.file=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/debug/resources-debug.ap_/res/layout/servo_list.xml
 167.file=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/assets/debug/java/js/java/JavaListener.js
@@ -904,7 +904,7 @@
 268.base=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/assets/debug
 115.file=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/assets/debug/java/js/antlr4/error/Errors.js
 274.set=ASSET
-25.file=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/debug/resources-debug.ap_/res/layout/lynx_module_configure_address.xml
+25.file=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/debug/resources-debug.ap_/res/raw/errormessage.wav
 152.set=ASSET
 58.file=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/assets/debug/java/templates/PushbotAutoDriveByGyro_Linear
 6.set=ANDROID_RESOURCE
@@ -1256,11 +1256,11 @@ count=447
 298.set=ASSET
 221.set=ASSET
 255.base=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/assets/debug
-272.file=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/debug/resources-debug.ap_/res/layout/matrix_devices.xml
+272.file=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/debug/resources-debug.ap_/res/xml/pushbot.xml
 426.base=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/assets/debug
 102.file=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/debug/resources-debug.ap_/res/layout/pwm_device.xml
 288.base=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/assets/debug
-135.file=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/debug/resources-debug.ap_/res/layout/digital_devices.xml
+135.file=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/debug/resources-debug.ap_/res/layout/digital_device_lynx.xml
 306.file=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/assets/debug/java/js/java/JavaLexer.js
 45.file=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/assets/debug/blockly/media/quote0.png
 168.file=/home/luke/FTC2017MkII/ftc_app/TeamCode/build/intermediates/res/debug/resources-debug.ap_/res/xml/maxmodules.xml
