@@ -35,10 +35,11 @@ public class EmuTeleOp extends OpMode {
     boolean leftBumper;
     boolean rightBumper;
     GlyphGrabber glyphGrabber;
+    Motors motors;
+    ParallelogramMotors parallelogramMotors;
 
     @Override
     public void init() {
-
         motors = new Motors(hardwareMap);
         parallelogramMotors = new ParallelogramMotors(hardwareMap);
 
