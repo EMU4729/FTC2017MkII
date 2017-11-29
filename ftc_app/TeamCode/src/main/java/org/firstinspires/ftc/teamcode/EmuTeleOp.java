@@ -14,9 +14,9 @@ import com.qualcomm.robotcore.hardware.Gamepad;
 import com.qualcomm.robotcore.hardware.Servo;
 
 
-@TeleOp(name="Base Drive Code", group ="Base Code")
+@TeleOp(name="TeleOp Code", group ="Base Code")
 
-public class BaseDrive extends OpMode {
+public class EmuTeleOp extends OpMode {
 
     String motorType;
     double WEIGHT;
