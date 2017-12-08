@@ -1,5 +1,8 @@
 package org.firstinspires.ftc.teamcode;
 
+import com.qualcomm.robotcore.hardware.DcMotor;
+import com.qualcomm.robotcore.hardware.HardwareMap;
+
 public class ParallelogramMotors {
     DcMotor parallelogramMotor;
 
@@ -9,11 +12,12 @@ public class ParallelogramMotors {
 
     public void moveParallelogram(boolean up) {
 
-        double speed = 1.0;
+        double downSpeed = 0.15;
+        double upSpeed = 0.3;
         if (up) {
-            parallelogramMotor.setPower(speed);
+            parallelogramMotor.setPower(upSpeed);
         } else {
-            parallelogramMotor.setPower(-speed);
+            parallelogramMotor.setPower(-downSpeed);
         }
     }
 

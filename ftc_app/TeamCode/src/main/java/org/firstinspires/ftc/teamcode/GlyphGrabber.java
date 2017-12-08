@@ -23,8 +23,10 @@ public class GlyphGrabber {
     Servo Servo1;
     Servo Servo2;
 
-    double openPos = 0.65;
-    double closePos = 0;
+    double openPos1 = 0.0 / 255.0;
+    double closePos1 = 140.0 / 255.0;
+    double openPos2 = 1.0 - openPos1;
+    double closePos2 = 1.0 - closePos1;
 
     //@Override
     public GlyphGrabber(HardwareMap hardwareMap) {
@@ -34,15 +36,12 @@ public class GlyphGrabber {
 
 //    @Override
     public void moveServo(Gamepad gamepad1) {
-        if(gamepad1.right_bumper) {
-            Servo1.setPosition(openPos);
-        } else {
-            Servo1.setPosition(closePos);
-        }
-        if (gamepad1.left_bumper){
-            Servo2.setPosition(openPos);
-        } else {
-            Servo2.setPosition(closePos);
+        if(gamepad1.left_bumper) {
+            Servo1.setPosition(openPos1);
+            Servo2.setPosition(openPos2);
+        } else if(gamepad1.right_bumper) {
+            Servo1.setPosition(closePos1);
+            Servo2.setPosition(closePos2);
         }
     }
 

@@ -88,9 +88,10 @@ public class EmuTeleOp extends OpMode {
         rightBumper = gamepad2.right_bumper;
 
         //update motors
+        // Turning and moving sideways is inverted
         motors.drive(-joystick_1_y, joystick_1_x, joystick_2_x);
 
-        glyphGrabber.moveServo(gamepad1);
+        glyphGrabber.moveServo(gamepad2);
 
         if (buttonY) {
             parallelogramMotors.moveParallelogram(true);
@@ -107,10 +108,8 @@ public class EmuTeleOp extends OpMode {
      */
     @Override
     public void stop() {
-        leftDrive.setPower(0);
-        rightDrive.setPower(0);
-        sidewaysDrive.setPower(0);
-        stopParallelogram();
+        motors.stop();
+        parallelogramMotors.stopParallelogram();
     }
 
 

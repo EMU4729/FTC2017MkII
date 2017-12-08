@@ -17,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EmuTeleOp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EmuTeleOp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/firstinspires/ftc/teamcode/EmuTeleOp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="100" column="49" lean-forward="false" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="49" />
+            <state relative-caret-position="519">
+              <caret line="102" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -76,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Motors.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Motors.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/firstinspires/ftc/teamcode/Motors.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="277">
@@ -2816,7 +2816,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512719588095" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512719615264" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2864,7 +2864,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512719588095" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512719615265" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -3047,7 +3047,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512719588097" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512719615267" />
       </method>
     </configuration>
     <list size="1">
@@ -3129,16 +3129,19 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/firstinspires/ftc/teamcode/ColourSensor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/firstinspires/ftc/teamcode/EmuTeleOp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-          <folding>
-            <marker date="1512719523265" expanded="false" signature="347:358" ph=" { " />
-            <marker date="1512719523265" expanded="false" signature="418:424" ph=" }" />
-            <marker date="1512719523265" expanded="false" signature="454:465" ph=" { " />
-            <marker date="1512719523265" expanded="false" signature="498:504" ph=" }" />
-          </folding>
+        <state relative-caret-position="519">
+          <caret line="102" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/firstinspires/ftc/teamcode/GlyphGrabber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3148,6 +3151,19 @@
           <caret line="67" column="2" lean-forward="false" selection-start-line="67" selection-start-column="2" selection-end-line="67" selection-end-column="2" />
           <folding>
             <element signature="e#0#1811#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/firstinspires/ftc/teamcode/ColourSensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+          <folding>
+            <marker date="1512719523265" expanded="false" signature="347:358" ph=" { " />
+            <marker date="1512719523265" expanded="false" signature="418:424" ph=" }" />
+            <marker date="1512719523265" expanded="false" signature="454:465" ph=" { " />
+            <marker date="1512719523265" expanded="false" signature="498:504" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -3162,14 +3178,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/firstinspires/ftc/teamcode/GlyphGrabber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/firstinspires/ftc/teamcode/Motors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
@@ -3177,14 +3185,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/firstinspires/ftc/teamcode/EmuTeleOp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="100" column="49" lean-forward="false" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>

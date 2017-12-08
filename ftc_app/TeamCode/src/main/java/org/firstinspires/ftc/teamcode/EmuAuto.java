@@ -1,6 +1,10 @@
+/*
 package org.firstinspires.ftc.teamcode;
 
 import android.hardware.SensorManager;
+
+import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
+import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
 @Autonomous(name="Autonomous Code", group ="Base Code")
@@ -18,7 +22,7 @@ public class EmuAuto extends OpMode {
     double stage1time = 5;
     double stage2time = 1 + stage1time;
     double stage3time = 3 + stage2time;
-    double stage4time = 5 + stage3time
+    double stage4time = 5 + stage3time;
 
 
 
@@ -61,3 +65,4 @@ public class EmuAuto extends OpMode {
 
     }
 }
+*/

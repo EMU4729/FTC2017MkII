@@ -1,5 +1,8 @@
 package org.firstinspires.ftc.teamcode;
 
+import com.qualcomm.robotcore.hardware.DcMotor;
+import com.qualcomm.robotcore.hardware.HardwareMap;
+
 public class Motors {
     DcMotor leftDrive;
     DcMotor rightDrive;
@@ -28,14 +31,15 @@ public class Motors {
         if (Math.abs(rb) > 1) {
             rb = rb/Math.abs(rb);
         }
-        if (WEIGHT < 1) {
-            WEIGHT = 1 / WEIGHT;
-            leftDrive.setPower(lb);
-            rightDrive.setPower(rb);
-        } else {
-            leftDrive.setPower(lb / WEIGHT);
-            rightDrive.setPower(rb / WEIGHT);
-        }
+        leftDrive.setPower(lb);
+        rightDrive.setPower(rb);
+
         sidewaysDrive.setPower(sideways);
+    }
+
+    public void stop() {
+        leftDrive.setPower(0);
+        rightDrive.setPower(0);
+        sidewaysDrive.setPower(0);
     }
 }
