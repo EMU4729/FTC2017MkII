@@ -58,6 +58,9 @@ public class EmuTeleOp extends OpMode {
     //Runs repeatedly until play is hit
     @Override
     public void init_loop() {
+        if (!parallelogramMotors.getLimitSwitch()) {
+            parallelogramMotors.moveParallelogram(false);
+        }
     }
 
     /*
@@ -88,7 +91,6 @@ public class EmuTeleOp extends OpMode {
         rightBumper = gamepad2.right_bumper;
 
         //update motors
-        // Turning and moving sideways is inverted
         motors.drive(-joystick_1_y, joystick_1_x, joystick_2_x);
 
         glyphGrabber.moveServo(gamepad2);

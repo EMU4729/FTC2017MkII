@@ -15,10 +15,10 @@ public class Motors {
     }
 
     public void drive(double forwards, double sideways, double turn) {
-        double lf = forwards+turn;
-        double rf = forwards-turn;
-        double lb = forwards+turn;
-        double rb = forwards-turn;
+        double lf = forwards-turn;
+        double rf = forwards+turn;
+        double lb = forwards-turn;
+        double rb = forwards+turn;
         if (Math.abs(lf) > 1) {
             lf = lf/Math.abs(lf);
         }
@@ -34,7 +34,7 @@ public class Motors {
         leftDrive.setPower(lb);
         rightDrive.setPower(rb);
 
-        sidewaysDrive.setPower(sideways);
+        sidewaysDrive.setPower(-sideways);
     }
 
     public void stop() {
